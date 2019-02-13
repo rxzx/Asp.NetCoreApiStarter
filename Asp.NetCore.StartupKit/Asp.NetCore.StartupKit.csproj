@@ -13,4 +13,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Asp.NetCore.Data\Asp.NetCore.Data.csproj" />
+    <ProjectReference Include="..\Asp.NetCore.Domain\Asp.NetCore.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
